@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">diplom_menu</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">ЕГЭ</string>
+    <string name="name2">информатика</string>
+    <string name="theor">Теория</string>
+    <string name="theor_name">Всё просто: выбери интересующую тебя тему, изучи приведенный пример и решай задачи на его основе. </string>
+    <string name="tren_name">Решай задания, смотри подсказки и исправляй свои ошибки. Для того, чтобы обновить данные, нажми на кнопку "новое задание". </string>
+    <string name="tren">Тренировка</string>
+    <string name="exam">Экзамен</string>
+    <string name="err">Ошибки</string>
+    <string-array name="theme">
+        <item>1. Системы счисления</item>
+        <item>2. Таблицы истинности</item>
+        <item>3. Анализ таблиц и графов</item>
+        <item>4. Базы данных</item>
+        <item>5. Кодирование и декодирование</item>
+        <item>6. Построение алгоритмов для исполнителей</item>
+        <item>7. Работа с элекстронными таблицами и диаграммами</item>
+        <item>8. Анализ программ</item>
+        <item>9. Передача информации</item>
+        <item>10. Последовательности и перебор слов</item>
+        <item>11. Рекурсия</item>
+        <item>12. Компьютерные сети</item>
+        <item>13. Подсчет количества информации</item>
+        <item>14. Исполнитель Робот</item>
+        <item>15. Поиск путей</item>
+        <item>16. Кодирование и системы счисления</item>
+        <item>17. Поисковые системы</item>
+        <item>18. Преобразование логических выражений</item>
+        <item>19. Массивы и матрицы</item>
+        <item>20. Циклы и условные операторы</item>
+        <item>21. Циклы и подпрограммы</item>
+        <item>22. Количество программ</item>
+        <item>23. Логические уравнения</item>
+        <item>Часть С</item>
+
+    </string-array>
+
+    <string name="v1">Тема 1</string>
+    <string name="v2">Тема 2</string>
+    <string name="v3">Тема 3</string>
+    <string name="v4">Тема 4</string>
+    <string name="v5">Тема 5</string>
+    <string name="v6">Тема 6</string>
+    <string name="v7">Тема 7</string>
+    <string name="v8">Тема 8</string>
+    <string name="v9">Тема 9</string>
+    <string name="v10">Тема 10</string>
+    <string name="v11">Тема 11</string>
+    <string name="v12">Тема 12</string>
+    <string name="v13">Тема 13</string>
+    <string name="v14">Тема 14</string>
+    <string name="v15">Тема 15</string>
+    <string name="v16">Тема 16</string>
+    <string name="v17">Тема 17</string>
+    <string name="v18">Тема 18</string>
+    <string name="v19">Тема 19</string>
+    <string name="v20">Тема 20</string>
+    <string name="v21">Тема 21</string>
+    <string name="v22">Тема 22</string>
+    <string name="v23">Тема 23</string>
+    <string name="v24">Часть С</string>
+    <string name="ans">Ответ:     </string>
+
+    <string name="v_new">Сформировать новые варианты</string>
+</resources>

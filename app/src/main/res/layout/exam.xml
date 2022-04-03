@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White_norm"
+    tools:context=".MainActivity"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White_norm"
+                android:orientation="vertical"
+                android:theme="@style/AppTheme">
+
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+
+                    app:popupTheme="@style/AppTheme.NoActionBar"
+                    app:titleTextColor="@color/White_norm">
+
+                    <TextView
+                        android:id="@+id/tik"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="10dp"
+                        android:text="3:53"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_gravity="right"
+                        android:textSize="11sp"
+                        app:fontFamily="@font/amaranth" />
+
+
+                </android.support.v7.widget.Toolbar>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:id="@+id/n"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="№1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="27sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@font/courgette" />
+
+                </LinearLayout>
+
+
+            </android.support.design.widget.AppBarLayout>
+
+
+
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/but1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+
+                    <Button
+                        android:id="@+id/but2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="2"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="3"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="4"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but5"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="5"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but6"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="6"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but7"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="7"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but8"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="8"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but9"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="9"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but10"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="10"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but11"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="11"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but12"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="12"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but13"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="13"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but14"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="14"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but15"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="15"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but16"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="16"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but17"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="17"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but18"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="18"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but19"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="19"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but20"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="20"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but21"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="21"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but22"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="22"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but23"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="23"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but24"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="C1"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but25"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="C2"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but26"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="C3"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+                    <Button
+                        android:id="@+id/but27"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:text="C4"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="20dp"
+                        app:fontFamily="@font/amaranth"/>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="0.5dp"
+                android:background="#d8d8d8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="25dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/zadanie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="Вычислите разность X и Y двоичных чисел, если Y=100 Х=1010100. Ответ запишите в двоичной системе."
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/amaranth" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="25dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="@string/ans"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15sp"
+                    app:fontFamily="@font/amaranth" />
+
+                <EditText
+                    android:id="@+id/text"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="10sp"
+                    app:fontFamily="@font/amaranth"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <Button
+
+                    android:id="@+id/next"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="Следующий вопрос"
+                    android:textSize="10sp"
+                    app:fontFamily="@font/amaranth"/>
+
+                <Button
+                    android:id="@+id/end"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:text="Закончить экзамен"
+                    android:textSize="10sp"
+                    app:fontFamily="@font/amaranth"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

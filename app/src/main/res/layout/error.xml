@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White_norm"
+    tools:context=".MainActivity"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White_norm"
+                android:orientation="vertical"
+                android:theme="@style/AppTheme">
+
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:popupTheme="@style/AppTheme.NoActionBar"
+                    app:titleTextColor="@color/White_norm"></android.support.v7.widget.Toolbar>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/head"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Правила"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        app:fontFamily="@font/courgette" />
+
+                </LinearLayout>
+
+
+            </android.support.design.widget.AppBarLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/text0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="13sp"
+                    android:text="Процедура проведения ЕГЭ"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/amaranth" />
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="
+                    \n
+✓ Время начала ЕГЭ 10.00 часов.
+\n\n
+✓ Допуск участников ЕГЭ в ППЭ осуществляется с 09.00.
+\n\n
+✓ Участники ЕГЭ не должны опаздывать на экзамен, так как для таких участников экзамена продолжительность проведения экзамена не продлевается и общий инструктаж, в том числе по заполнению регистрационных полей бланков ЕГЭ, не проводится.
+\n\n
+✓ При входе в ППЭ участник ЕГЭ должен предъявить документ, удостоверяющий личность (далее – паспорт).
+\n\n
+✓ В случае отсутствия по объективным причинам у обучающегося паспорта он допускается в ППЭ только после письменного подтверждения его личности сопровождающим от школы.
+\n\n
+✓ В случае отсутствия паспорта у выпускника прошлых лет и других категорий участников ЕГЭ в ППЭ такие участники ЕГЭ не допускаются.
+\n\n
+✓ В ППЭ участник ЕГЭ берет с собой:
+\n
+    - ручка;
+\n
+    - паспорт;
+\n
+   -  лекарства и питание;
+\n
+    - средства обучения и воспитания.
+\n\n
+✓ В ППЭ организаторы вне аудитории оказывают содействие участникам ЕГЭ в перемещении по ППЭ. Организаторы сообщают участникам ЕГЭ номера аудиторий в соответствии с автоматизированным распределением и сопровождают участников экзамена до аудиторий.
+\n\n
+✓ Организаторы в аудитории повторно проверяют у участников ЕГЭ паспорт и направляют участника ЕГЭ на рабочее место согласно спискам автоматизированного распределения.
+\n\n
+✓ Занять место, указанное организатором. Изменение рабочего места не допускается.
+\n\n
+✓ При раздаче комплектов экзаменационных материалов все участники ЕГЭ должны:
+\n
+    - внимательно прослушать инструктаж, проводимый организаторами в аудитории;
+\n
+    - обратить внимание на целостность упаковки сейф-пакета с электронным носителем и прослушать информацию о процедуре печати экзаменационных материалов (далее – ЭМ) в аудитории;
+\n
+    - получить от организаторов напечатанные полные комплекты ЭМ.
+"
+                    android:textSize="13sp"
+                    app:fontFamily="@font/amaranth" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="13sp"
+                    android:text="При заполнении бланка регистрации и бланков ответов все участники ЕГЭ должны
+         "
+                    android:textStyle="bold"
+                    app:fontFamily="@font/amaranth" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="
+✓ Внимательно прослушать инструктаж по заполнению области регистрации бланков регистрации, бланков ответов и по порядку работы с экзаменационными материалами;
+\n\n
+✓ Под руководством организаторов заполнить бланк регистрации и области регистрации бланков ответов № 1 и 2.
+
+"
+                    android:textSize="13sp"
+                    app:fontFamily="@font/amaranth" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:id="@+id/text4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="13sp"
+                    android:text="Во время экзамена все участники ЕГЭ должны"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/amaranth" />
+
+                <TextView
+                    android:id="@+id/text5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="
+✓ После объявления организаторами времени начала выполнения экзаменационной работы (время начала и окончания выполнения экзаменационной работы фиксируется на доске) приступить к выполнению экзаменационной работы.
+\n\n
+✓ Выполнять указания организаторов.
+\n\n
+✓ Во время экзамена участникам ЕГЭ запрещается:
+\n
+    1. Иметь при себе:
+    \n
+        - уведомление о регистрации на экзамены,
+      \n
+        - средства связи,
+        \n
+        - электронно-вычислительную технику,
+        \n
+        - фото-, аудио- и видеоаппаратуру,
+        \n
+        - справочные материалы, письменные заметки и иные средства хранения и передачи информации.
+\n
+    2. Выносить из аудиторий и ППЭ экзаменационные материалы (далее – ЭМ) на бумажном и (или) электронном носителях.
+\n
+    3. Выносить из аудиторий письменные принадлежности, письменные заметки и иные средства хранения и передачи информации.
+\n
+    4. Фотографировать ЭМ.
+  \n
+    5. Разговаривать между собой.
+    \n
+    6. Обмениваться любыми материалами и предметами с другими участниками ЕГЭ.
+    \n
+    7. Переписывать задания КИМ в черновики со штампом образовательной организации ЕГЭ.
+    \n
+    8. Произвольно выходить из аудитории и перемещаться по ППЭ без сопровождения организатора вне аудитории
+
+
+
+"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="13sp"
+                    app:fontFamily="@font/amaranth" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="13sp"
+                    android:text="По окончании выполнения экзаменационной работы участниками ЕГЭ "
+
+                    android:textStyle="bold"
+                    app:fontFamily="@font/amaranth" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:text="
+✓ Участники ЕГЭ откладывают экзаменационные материалы, включая КИМ и черновики, на край своего стола. Организаторы в аудитории: собирают у участников ЕГЭ экзаменационные материалы, включая КИМ и черновики.
+"
+                    android:textSize="13sp"
+                    app:fontFamily="@font/amaranth" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

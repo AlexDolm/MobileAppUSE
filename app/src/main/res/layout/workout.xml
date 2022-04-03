@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/White_norm"
+tools:context=".MainActivity"
+    >
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White_norm"
+            android:orientation="vertical"
+            android:theme="@style/AppTheme">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:popupTheme="@style/AppTheme.NoActionBar"
+                app:titleTextColor="@color/White_norm"></android.support.v7.widget.Toolbar>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/tren"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="27sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/courgette" />
+            </LinearLayout>
+
+
+        </android.support.design.widget.AppBarLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/tren_name"
+                android:textColor="@color/Gray"
+                android:textSize="8sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+
+            <FrameLayout
+                android:id="@+id/pract1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v1"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pract2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v2"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/pract3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v3"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pract4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v4"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/pract5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v5"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pract6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v6"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/pract7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v7"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pract8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/v8"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+
+            <FrameLayout
+                android:id="@+id/pract9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v9"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pract10"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v10"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/pract11"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v11"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pract12"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/v12"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/pract13"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/v13"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pract14"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v14"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/pract15"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v15"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pract16"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v16"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/pract17"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v17"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pract18"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v18"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/pract19"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v19"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pract20"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v20"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/pract21"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v21"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pract22"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v22"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/pract23"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v23"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/pract24"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="6dp"
+                android:layout_weight=".50"
+                android:background="@color/Gray_button"
+                android:onClick="Click_layout">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/v24"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="17dp"
+                    app:fontFamily="@font/amaranth"
+                    android:layout_marginLeft="10dp" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>

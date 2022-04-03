@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/White_norm"
+tools:context=".MainActivity">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White_norm"
+            android:orientation="vertical"
+            android:theme="@style/AppTheme">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+
+                app:popupTheme="@style/AppTheme.NoActionBar"
+                app:titleTextColor="@color/White_norm"></android.support.v7.widget.Toolbar>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/theor"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="27sp"
+                    android:textStyle="bold"
+                    app:fontFamily="@font/courgette" />
+
+            </LinearLayout>
+
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="@string/theor_name"
+                android:textColor="@color/Gray"
+                android:textSize="8sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect1"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:onClick="Click_layout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="1. Системы счисления"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect2"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@color/Gray_theor"
+            android:gravity="center_vertical"
+            android:onClick="Click_layout"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="2. Таблицы истинности"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect3"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="3. Анализ таблиц и графов"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect4"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:onClick="Click_layout"
+            android:background="@color/Gray_theor">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="4. Базы данных"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect5"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="5. Кодирование и декодирование"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect6"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical"
+            android:background="@color/Gray_theor">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="6. Построение алгоритмов для исполнителей"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect7"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:onClick="Click_layout"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="7. Работа с элекстронными таблицами и диаграммами"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect8"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical"
+            android:background="@color/Gray_theor">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="8. Анализ программ"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect9"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="9. Передача информации"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect10"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical"
+            android:background="@color/Gray_theor">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="10. Последовательности и перебор слов"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect11"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:onClick="Click_layout"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="11. Рекурсия"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect12"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical"
+            android:background="@color/Gray_theor">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="12. Компьютерные сети"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect13"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:onClick="Click_layout"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="13. Подсчет количества информации"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect14"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical"
+            android:background="@color/Gray_theor">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="14. Исполнитель Робот"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect15"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="15. Поиск путей"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect16"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical"
+            android:background="@color/Gray_theor">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="16. Кодирование и системы счисления"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect17"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:onClick="Click_layout"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="17. Поисковые системы"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect18"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical"
+            android:background="@color/Gray_theor">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="18. Преобразование логических выражений"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect19"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="19. Массивы и матрицы"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect20"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:onClick="Click_layout"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:background="@color/Gray_theor">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="20. Циклы и условные операторы"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect21"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:onClick="Click_layout"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="21. Циклы и подпрограммы"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect22"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical"
+            android:background="@color/Gray_theor">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="22. Количество программ"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect23"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="23. Логические уравнения"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect24"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical"
+            android:background="@color/Gray_theor">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Часть С. Задание 1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect25"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:onClick="Click_layout"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Часть С. Задание 2"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect26"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical"
+            android:background="@color/Gray_theor">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Часть С. Задание 3"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lect27"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical"
+            android:onClick="Click_layout"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Часть С. Задание 4"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="10sp"
+                app:fontFamily="@font/amaranth" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</android.support.v7.widget.LinearLayoutCompat>
