@@ -1,3 +1,4 @@
+ # Mobile application for preparing for the Unified State Exam in computer science
  👋 Hi!  
  This is a mobile application for preparing for the Unified State Exam in computer science.  
  The application implements automatic generation of tasks ( ) and their solution + detailed output of the solution for the user. 
